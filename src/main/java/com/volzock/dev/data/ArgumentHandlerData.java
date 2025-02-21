@@ -12,4 +12,5 @@ import static lombok.AccessLevel.PRIVATE;
 public class ArgumentHandlerData {
     String path;
     String extension;
+    Long cpus;
 }

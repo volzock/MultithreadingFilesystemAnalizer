@@ -1,4 +1,4 @@
-package com.volzock.dev.args;
+package com.volzock.dev.args.handlers;
 
 import com.volzock.dev.data.ArgumentHandlerData;
 import lombok.NonNull;

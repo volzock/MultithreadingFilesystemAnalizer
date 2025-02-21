@@ -30,6 +30,13 @@ class ArgumentValidator {
                     return String.format(NOT_VALID_TYPE, ext, EXTENSION_REGEX);
                 }
                 return null;
+            },
+            data -> {
+                final var cpus = data.getCpus();
+                if (cpus <= 0) {
+                    return String.format(NOT_VALID_TYPE, cpus, "[positive number]");
+                }
+                return null;
             }
     );
 
